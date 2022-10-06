@@ -1,0 +1,98 @@
+@import url('http://fonts.cdnfonts.com/css/chirp-2');
+
+* {
+    font-family: 'Chirp', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    margin: 5px;
+}
+
+.mensagens {
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+
+.iconMensagens1 {
+    width: 25px;
+    height: 25px;
+}
+
+.iconMensagens {
+    padding-left: 140px;
+}
+
+.perfil1 {
+    background-color: #ffff;
+    padding: 20px 20px;
+}
+
+.menu {
+    color: #fff;
+    background-color: #1d9bf0;
+    padding: 20px 20px 0px;
+}
+
+.ultimoItem {
+    padding-bottom: 20px;
+}
+
+.menuTexto .bordaMenu {
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menuTexto h3:first-child {
+    margin-top: 0;
+}
+
+.verificado {
+    width: 20px;
+}
+
+.perfil2 .icon {
+    width: 130px;
+    border-radius: 100%;
+    border: 4px solid #1d9bf0;
+}
+
+.name-social {
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.perfil2,
+.stats {
+    display: flex;
+}
+
+.stats {
+    justify-content: space-around;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguindo {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid #000000;
+}
